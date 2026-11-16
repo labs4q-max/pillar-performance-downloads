@@ -14,6 +14,14 @@ If no release is listed, an APK has not been published here yet. GitHub's automa
 
 See [Installation](INSTALL.md) before installing or updating.
 
+## Android compatibility
+
+The inspected version 0.6.9 APK supports Android 7.0 (API 24) or newer on devices running a 64-bit ARM Android system (`arm64-v8a`). It is not restricted to Samsung phones. The “S22-Ultra” label in the existing APK filename identifies the initial test device, not a device requirement.
+
+Compatible phones from other manufacturers can use the same APK. This build does not include 32-bit ARM or x86 native libraries and cannot be installed on iPhones. Compatibility requirements may change between releases; check the notes for the APK you download.
+
+The package declares support for small through extra-large screens. This is not a guarantee that every layout or feature has been validated on every device.
+
 ## Your dashboards
 
 | Dashboard | What you can do |
