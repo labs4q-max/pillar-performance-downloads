@@ -1,5 +1,15 @@
 # Install and update Pillar Performance
 
+## Device requirements for version 0.6.9
+
+- Android 7.0 (API 24) or newer.
+- A 64-bit ARM Android system (`arm64-v8a`); this APK does not include 32-bit ARM or x86 libraries.
+- A camera and camera permission to use barcode scanning.
+
+The APK is not limited to the Samsung S22 Ultra. “S22-Ultra” in its existing filename refers to the initial test device. Other compatible Android phones can use the same installer. An APK cannot be installed on an iPhone.
+
+Screen-size support is declared for small, normal, large, and extra-large screens, but layout quality and device-specific behavior still need testing. Check each release's notes for its requirements.
+
 ## Install on Android
 
 1. Open this repository's Releases section in your phone's browser.
